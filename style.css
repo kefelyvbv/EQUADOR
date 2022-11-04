@@ -1,6 +1,7 @@
 
 body{
-    background: black;
+    background: rgba(255, 238, 0, 0.532);
+    background-image: ;
 }
 h1 {
     color: #2600ff;
@@ -8,4 +9,155 @@ h1 {
 }
 p {
     color-scheme: pink;
+}
+
+nav li {
+    display: inline;
+    font: 1.1em sans-serif;
+    float: right;
+    margin: 20px;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+nav a:hover {
+    font-size: 1.1em;
+    color: rgb(112, 2, 83)
+}
+
+#capa {
+    width: 100%;
+    float: center;
+}
+
+.titulo {
+    color: #ffffff;
+    text-align: center;
+    margin: 30px;
+}
+
+h1 {
+    border: 3px;
+    font-size: 2em;
+    font-weight: bolder; 
+}
+
+h2 {
+    border: 3px;
+    font-size: 1.5em;
+    font-weight: bolder; 
+}
+
+.texto-principal {
+    margin-right: 20%; 
+}
+
+div {
+    margin: 20px;
+}
+
+h3 {
+    color:  #ffffff;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+p {
+    color:  #ffffff;
+    margin-left: 40px;
+    text-align: justify;
+    margin-right: 20px;
+    font-size: 1.05em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+li {
+    color:  #ffffff;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 1.05em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.itens {
+	color:  black;
+	text-decoration: underline;
+}
+
+.tabela {
+    align-items: center;
+}
+
+table {
+    color:  #ffffff;
+    margin-left: 40px;
+    border-color: #ffffff;
+    margin-right: 20px;
+    font-size: 1em;
+    align-items: center;
+    border: 1px white;
+}
+
+th {
+    color:  #ffffff;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 1.05em;
+}
+td {
+    color:  #ffffff;
+    text-align: center;
+    font-size: 1.05em;
+}
+
+#bandeira {
+    width: 70px;
+}
+
+#bandeiras {
+    width: 100px;
+    text-align: center;
+}
+
+.copa {
+    height: 300px;
+    justify-content: center;
+    margin: 20px;
+}
+
+#mapa {
+    width: 70%;
+    justify-content: center;
+}
+
+.mascote {
+    width: 20%;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+h4 {
+    color:  #ffffff;
+    margin: 20px;
+    text-align: justify;
+    font-size: 1.05em;
+}
+
+#rodape {
+    width: 100%;
+    float: center;
 }
